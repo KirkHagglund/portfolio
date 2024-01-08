@@ -1,0 +1,9 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 120px;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
