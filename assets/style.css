@@ -12,6 +12,19 @@ html {
   padding-top: 20px;
 }
 
+.project-img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.project-card:hover .project-img {
+  opacity: 0.3;
+}
+
 .contact-button {
   display: inline-block;
   text-transform: uppercase;
