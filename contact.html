@@ -117,7 +117,7 @@
       <div id="contact-container" class="container col-lg-6">
         <!-- Wrapper container -->
         <div class="container py-4">
-          <!-- Bootstrap 5 starter form data-sb-form-api-token="API_TOKEN" -->
+          <!-- Bootstrap 5 starter form -->
           <form id="contactForm" action="https://formsubmit.co/1a899a92d7aab7d3354f222feac53072" method="POST">
             <!-- Honeypot Section -->
             <input type="text" name="_honey" style="display: none" />
@@ -125,7 +125,12 @@
             <!-- Disable Captcha -->
             <input type="hidden" name="_captcha" value="false" />
 
+            <!-- Redirect -->
             <input type="hidden" name="_next" value="https://kirkhagglund.github.io/portfolio/index.html" />
+
+            <!-- Automated Response -->
+            <input type="hidden" name="_autoresponse" value="Thanks for reaching out! I'll be in touch soon to follow up with you. Have a great day!">
+
             <!-- Name input -->
             <div class="mb-3">
               <label style="font-size: larger" class="form-label" for="name"
