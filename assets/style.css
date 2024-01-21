@@ -8,6 +8,10 @@ html {
   padding: 0;
 }
 
+#projects {
+  margin: auto;
+}
+
 .project-card {
   padding-top: 20px;
 }
@@ -17,7 +21,7 @@ html {
   display: block;
   width: 100%;
   height: auto;
-  transition: .5s ease;
+  transition: 0.5s ease;
   backface-visibility: hidden;
 }
 
